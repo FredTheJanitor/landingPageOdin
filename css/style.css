@@ -3,4 +3,10 @@
 }
 .header, .footer {
     background-color: #1f2937;
+    display: flex;
+    color: white
+}
+.nav {
+    display: flex;
+    background-color: #1f2937;
 }
