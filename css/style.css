@@ -56,13 +56,19 @@ sides */
     list-style: none;
     gap: 1rem;
     justify-content: flex-end;
+    align-items: center;
     flex: 1
 }
 .nav li {
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
+.nav p {
+    font-weight: bold;
+    font-size: 24px;
+}
 .title {
     padding: 1rem;
     padding-top: 4rem;
