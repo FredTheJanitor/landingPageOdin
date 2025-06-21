@@ -9,11 +9,6 @@ body {
     align-items: stretch;  
 }
 
-/* .spacer { 
-    width: 20rem;
-    flex-shrink: 2;
-} */
-
 /* there are 3 flex items within page:
 header, main & footer
 I think if I center these flex items and
