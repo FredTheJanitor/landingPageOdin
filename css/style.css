@@ -115,6 +115,7 @@ sides */
     padding-bottom: 5rem;
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .titleText {
@@ -123,7 +124,6 @@ sides */
     justify-content: flex-start;
     align-items: flex-start;
     flex: 1;
-    max-width: 50%;
     flex-wrap: wrap;
 }
 
