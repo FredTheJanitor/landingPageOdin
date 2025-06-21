@@ -143,8 +143,24 @@ h1 {
 .title p {
     font-size: 18px;
     margin: 0px;
+    font-weight: 300;
+}
+
+.quoteText {
+    padding: 4rem 8rem;
 }
 
 .quote {
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote2 {
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    margin-right: 2rem;
 }
