@@ -63,6 +63,7 @@ sides */
 .title {
     padding: 1rem;
     padding-top: 4rem;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -72,13 +73,15 @@ sides */
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
+    flex: 1;
+    max-width: 50%;
 }
 
 .title img {
-    flex-basis: auto;
-    height: 20vh;
+    flex: 1;
+    max-width: 30rem;
     border-radius: 2%;
+    flex-shrink: 1;
 }
 
 .title h1 {
