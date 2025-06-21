@@ -29,6 +29,10 @@ these sections could be centered without
 pulling the background color off of the 
 sides */
 
+.content {
+    flex-basis: 75vw;
+}
+
 .header, .footer {
     background-color: #1f2937;
     display: flex;
@@ -38,6 +42,7 @@ sides */
 .nav {
     display: flex;
     flex: 1;
+    padding: 0rem 1rem;
 }
 .nav ul {
     display: flex;
