@@ -30,7 +30,7 @@ pulling the background color off of the
 sides */
 
 .content {
-    flex-basis: 75vw;
+    flex-basis: 70vw;
 }
 
 .header, .footer {
