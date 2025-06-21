@@ -21,9 +21,15 @@ give them a predefined width I can center
 the content without spacers */
 
 .header, .main, .footer {
-    flex: 1
-    
+    flex: 1  
 }
+
+/* perhaps adding a class of content within
+these sections could be centered without
+pulling the background color off of the 
+sides */
+
+
 
 .header, .footer {
     background-color: #1f2937;
