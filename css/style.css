@@ -1,14 +1,12 @@
 body {
     margin: 0;
-    display: flex;
 }
 
 .page {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: stretch;  
 }
 
 /* .spacer { 
@@ -23,6 +21,7 @@ give them a predefined width I can center
 the content without spacers */
 
 .header, .main, .footer {
+    flex: 1
     
 }
 
