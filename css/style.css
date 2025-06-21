@@ -67,6 +67,14 @@ sides */
     justify-content: space-between;
 }
 
+.titleText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
 .title img {
     flex-basis: auto;
     height: 20vh;
@@ -75,5 +83,5 @@ sides */
 
 .title h1 {
     font-size: 48px;
-    margin: none;
+    margin: 0rem;
 }
