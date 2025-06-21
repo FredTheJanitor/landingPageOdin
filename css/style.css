@@ -29,8 +29,6 @@ these sections could be centered without
 pulling the background color off of the 
 sides */
 
-
-
 .header, .footer {
     background-color: #1f2937;
     display: flex;
