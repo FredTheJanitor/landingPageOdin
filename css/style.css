@@ -23,7 +23,7 @@ give them a predefined width I can center
 the content without spacers */
 
 .header, .main, .footer {
-    flex: 1  
+    display: flex;  
 }
 
 /* perhaps adding a class of content within
@@ -39,7 +39,6 @@ sides */
 
 .header, .footer {
     background-color: #1f2937;
-    display: flex;
     color: white;
     justify-content: center;
 }
@@ -50,7 +49,6 @@ sides */
 
 .nav {
     display: flex;
-    flex: 1;
     padding: 0rem 1rem;
 }
 .nav ul {
