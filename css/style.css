@@ -29,12 +29,13 @@ the content without spacers */
 .main {
     flex-direction: column;
     align-items: stretch;
+    flex: 1;
 }
 
 .info, .quote, .cta {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 /* perhaps adding a class of content within
