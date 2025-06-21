@@ -5,14 +5,19 @@ body {
 .page {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
-.spacer {
+/* .spacer { 
     width: 20rem;
     flex-shrink: 2;
-}
+} */
+
+/* there are 3 flex items within page:
+header, main & footer
+I think if I center these flex items and
+give them a predefined width I can center
+the content without spacers */
 
 .header, .footer {
     background-color: #1f2937;
