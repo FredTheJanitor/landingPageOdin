@@ -9,9 +9,10 @@ body {
 
 
 .page {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: stretch;
     align-items: stretch;  
 }
 
@@ -41,6 +42,10 @@ sides */
     display: flex;
     color: white;
     justify-content: center;
+}
+
+.footer {
+    margin-top: auto;
 }
 
 .nav {
