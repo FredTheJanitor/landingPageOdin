@@ -38,6 +38,11 @@ the content without spacers */
     padding: 2rem;
 }
 
+.infoTitle {
+    display: flex;
+    justify-content: center;
+}
+
 /* perhaps adding a class of content within
 these sections could be centered without
 pulling the background color off of the 
