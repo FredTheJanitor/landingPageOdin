@@ -5,28 +5,35 @@ body {
 .page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
 }
+
+.spacer {
+    width: 20rem;
+    flex-shrink: 2;
+}
+
 .header, .footer {
     background-color: #1f2937;
     display: flex;
-    color: white
+    color: white;
+    justify-content: center;
 }
 .nav {
     display: flex;
     background-color: #1f2937;
-    gap: 1rem;
-    padding: 1rem;
     flex: 1;
 }
 .nav ul {
     display: flex;
     list-style: none;
     gap: 1rem;
-    flex: 1;
     justify-content: flex-end;
+    flex: 1
 }
 
 .nav li {
-    margin-left: auto;
+    margin: 0;
+    padding: 0;
 }
