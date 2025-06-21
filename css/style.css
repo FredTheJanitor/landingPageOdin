@@ -1,6 +1,11 @@
+body {
+    margin: 0;
+}
+
 .page {
     display: flex;
     flex-direction: column;
+    
 }
 .header, .footer {
     background-color: #1f2937;
