@@ -191,6 +191,13 @@ h4 {
     font-weight: bold;
 }
 
+.title button:hover {
+    color:#1f2937;
+    background-color: #E5E7EB;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
 .quoteText {
     padding: 4rem 8rem;
 }
@@ -244,6 +251,13 @@ h3 {
     border-radius: 1rem;
     border-width: 3px;
     padding: 1rem 4rem;
+}
+
+.ctaBox button:hover {
+    background-color: #E5E7EB;
+    color:#3882f6;
+    transition-duration: 1s;
+    cursor: pointer;
 }
 
 .footer {
