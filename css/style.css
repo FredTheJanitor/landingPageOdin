@@ -79,7 +79,7 @@ sides */
 
 .header, .footer {
     background-color: #1f2937;
-    color: white;
+    color: #E5E7EB;
     justify-content: center;
 }
 
@@ -103,11 +103,13 @@ sides */
     font-size: 18px;
     margin: 0;
     padding: 0;
+    color: #E5E7EB;
 }
 
 .nav p {
     font-weight: bold;
     font-size: 24px;
+    color: #ffffff;
 }
 .title {
     padding: 1rem;
@@ -138,12 +140,14 @@ h1 {
     font-size: 48px;
     margin: 0rem;
     padding: 0rem;
+    color: #ffffff;
 }
 
 .title p {
     font-size: 18px;
     margin: 0px;
     font-weight: 300;
+    color: #E5E7EB;
 }
 
 .quoteText {
@@ -163,4 +167,26 @@ h1 {
     font-style: normal;
     text-align: right;
     margin-right: 2rem;
+}
+
+.ctaBox {
+    background-color: #3882f6;
+    border-radius: 1rem;
+    display: flex;
+    padding: 2rem 8rem;
+    margin: 4rem 1rem;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0%;
+}
+
+.ctaBox p {
+    margin: 0px;
+    color: #E5E7EB;
+
 }
