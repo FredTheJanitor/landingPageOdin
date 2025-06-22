@@ -224,14 +224,26 @@ h4 {
 
 h3 {
     font-size: 24px;
-    margin: 0%;
+    margin: 0px;
+    margin-bottom: 1rem;
 }
 
 .ctaBox p {
     margin: 0px;
     color: #E5E7EB;
     font-size: 18px;
+}
 
+.ctaBox button {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #ffffff;
+    border: #E5E7EB;
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: 3px;
+    padding: 1rem 4rem;
 }
 
 .footer {
