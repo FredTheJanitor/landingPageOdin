@@ -158,12 +158,22 @@ sides */
     display: flex;
 }
 
+.titleImage a {
+    display: flex;
+}
+
 .title img {
     flex: 1;
-    max-width: 40rem;
+    max-width: 20rem;
     border-radius: 1rem;
     flex-shrink: 1;
-    transition-duration: 1s;
+    transition-duration: .5s;
+}
+
+.title img:hover {
+    max-width: 21rem;
+    transition-duration: .5s;
+    cursor: pointer;
 }
 
 /* .title img:hover { 
