@@ -113,16 +113,23 @@ sides */
 .nav ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: flex-end;
     align-items: center;
     flex: 1
 }
-.nav li {
+.nav li, a {
     font-size: 18px;
     margin: 0;
     padding: 0;
     color: #E5E7EB;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.nav a:hover {
+    color: white;
+    transition-duration: .5s;
 }
 
 .nav p {
